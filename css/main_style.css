@@ -990,6 +990,10 @@ main {
   margin: 0 auto;
 }
 
+.column_fourth .card img {
+  height: 141px;
+}
+
 .card {
   width: 294px;
   border-radius: 0px !important;
