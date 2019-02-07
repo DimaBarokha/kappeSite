@@ -960,3 +960,74 @@ main {
         color: #fff;
     }
 }
+
+.btn-posts {
+    display: flex;
+    justify-content: center;
+
+    button {
+        width: 183px;
+        height: 63px;
+        cursor: pointer;
+        border: none;
+        outline: none;
+        font-size: 20px;
+        font-weight: 100;
+        line-height: 30.73px;
+        text-transform: uppercase;
+        background-color: #1ab5b3;
+        color: #fff;
+        transition: all .3s;
+
+        &:hover {
+            color: #1ab5b3;
+            background-color: #fff;
+        }
+    }
+}
+
+.сomments {
+    margin-top: 25px;
+
+    .comments-list {
+        li {
+            margin-bottom: 32px;
+        }
+        ul ul{
+            margin-left: 40px !important;
+        }
+        &__box {
+            img {
+                width: 80px;
+                height: 80px;
+            }
+
+            .comments-about {
+                margin-left: 20px;
+
+                h5 {
+                    color: #3c3c3c;
+                    font-size: 14px;
+                    font-weight: 300;
+                    line-height: 22px;
+                    padding-bottom: 4px;
+                    border-bottom: 1px solid #d1d1d1;
+
+                    span {
+                        color: #d1d1d1;
+                        font-size: 14px;
+                        font-weight: 300;
+                        line-height: 22px;
+                    }
+                }
+
+                p {
+                    color: #a3a3a3;
+                    font-size: 18px;
+                    font-weight: 300;
+                    line-height: 26px;
+                }
+            }
+        }
+    }
+}
