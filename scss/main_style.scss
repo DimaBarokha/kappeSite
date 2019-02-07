@@ -993,9 +993,28 @@ main {
         li {
             margin-bottom: 32px;
         }
-        ul ul{
-            margin-left: 40px !important;
+
+        ul {
+            position: relative;
         }
+
+        ul ul {
+            margin-left: 40px !important;
+            padding-left: 40px !important;
+
+            &:before {
+                content: '';
+                display: block;
+                background-image: url(../img/stripes.png);
+                background-repeat: no-repeat;
+                background-size: cover;
+                height: 40px;
+                width: 40px;
+                position: absolute;
+                left: -15px;
+            }
+        }
+
         &__box {
             img {
                 width: 80px;

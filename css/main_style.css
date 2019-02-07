@@ -1123,8 +1123,25 @@ main {
   margin-bottom: 32px;
 }
 
+.сomments .comments-list ul {
+  position: relative;
+}
+
 .сomments .comments-list ul ul {
   margin-left: 40px !important;
+  padding-left: 40px !important;
+}
+
+.сomments .comments-list ul ul:before {
+  content: '';
+  display: block;
+  background-image: url(../img/stripes.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 40px;
+  width: 40px;
+  position: absolute;
+  left: -15px;
 }
 
 .сomments .comments-list__box img {
