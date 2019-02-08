@@ -988,6 +988,8 @@ main {
 
 .сomments {
     margin-top: 25px;
+    padding-bottom: 32px;
+    border-bottom: 1px solid #bebebe;
 
     .comments-list {
         li {
@@ -1049,4 +1051,64 @@ main {
             }
         }
     }
+}
+
+.leave-comment {
+    h2 {
+        color: #000000;
+        font-size: 24px;
+        font-weight: 100;
+        line-height: 26px;
+    }
+
+    margin-top: 25px;
+
+    &__form {
+        margin-bottom: 10px;
+
+        &_img {
+            height: 59px;
+            width: 59px;
+            border: 1px solid #eaeaea;
+            justify-content: center;
+            align-items: center;
+        }
+
+        input {
+            padding-left: 18px;
+            width: 288px;
+            border: 1px solid #eaeaea;
+            font-size: 20px;
+        }
+    }
+}
+
+.right-form {
+    &_leave-comment {
+        margin-left: 10px;
+
+        textarea {
+            height: 128px;
+            width: 364px;
+            border: 1px solid #eaeaea;
+            resize: none;
+            padding-left: 18px;
+            padding-top: 25px;
+        }
+
+        button {
+            margin-top: 4px;
+            width: 364px;
+            height: 59px;
+            background-color: #1ab5b3;
+            border: none;
+            color: #ffffff;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: 30px;
+            text-transform: uppercase;
+        }
+    }
+
+
 }
